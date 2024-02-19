@@ -19,7 +19,9 @@ class arithmatic {
     public static void main(String[] args) {
         calculator z = new calculator();
         z.calci();
-
+        extendedcalci g=new extendedcalci();
+        g.square(25);
+        g.cube(35);
     }
 }
 
